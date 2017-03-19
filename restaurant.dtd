@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT Restaurant (restaurant+)>
-<!ELEMENT restaurant (coordonnee, carte, menu?)>
-<!ELEMENT coordonnee (nom, adresse, restaurateur, description?, image)>
+<!ELEMENT restaurant (information, carte, menu?)>
+<!ELEMENT information (coordonnee, nom, adresse, restaurateur, description?, image)>
+<!ELEMENT coordonnee (#PCDATA)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT adresse (#PCDATA)>
 <!ELEMENT restaurateur (#PCDATA)>
