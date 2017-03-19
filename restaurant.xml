@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Restaurant SYSTEM "restaurant.dtd">
+<?xml-stylesheet type="text/css" href="restaurant.css"?>
+<Restaurant  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="restaurant.xsd">
+    <restaurant>
+        <coordonnee>
+            <nom>La Parisienne</nom>
+            <adresse>Route des Almadies</adresse>
+            <restaurateur>François Peyre</restaurateur>
+            <description>Prendre ces repas dans un cadre calme et agréable.</description>
+            <image adresse="image"></image>
+        </coordonnee>
+        <carte> 
+            <plat type="Entree" nom="Salade royale">
+                <prix devise="FCFA">2000</prix>
+                <description>Laitue, tomate, concombre, lamelle de jambon, vinaigrette</description>
+            </plat>
+            <plat type="Entree" nom="Salade de Nice">
+                <prix devise="FCFA">2000</prix>
+                <description>Laitue, tomate, oignon, avocat, lamelle de viande, vinaigrette</description>
+            </plat>
+            <plat type="Entree" nom="Salade américaine">
+                <prix devise="FCFA">2500</prix>
+                <description>Laitue, tomate, oignon, concombre, lamelle de poulet, vinaigrette</description>
+            </plat>
+            <plat type="Plat" nom="Poulet braisé">
+                <prix devise="FCFA">4000</prix>
+                <description>1/2 Poulet, crudités, frites</description>
+            </plat>
+            <plat type="Plat" nom="Dibi">
+                <prix devise="FCFA">5000</prix>
+                <description></description>
+            </plat>
+            <plat type="Plat" nom="Côtes d'agneau au four">
+                <prix devise="FCFA">6000</prix>
+                <description></description>
+            </plat>
+            <plat type="Dessert" nom="Glace">
+                <prix devise="FCFA">1500</prix>
+                <description>Parfum au choix</description>
+            </plat>
+            <plat type="Dessert" nom="Tarte à la fraise">
+                <prix devise="FCFA">3000</prix>
+                <description></description>
+            </plat>
+            <plat type="Dessert" nom="Mousse au chocolat">
+                <prix devise="FCFA">3000</prix>
+                <description></description>
+            </plat>
+            <plat type="Fromage" nom="Roquefort">
+                <prix devise="FCFA">3500</prix>
+                <description></description>
+            </plat>
+            <plat type="Fromage" nom="Camembert Président">
+                <prix devise="FCFA">4000</prix>
+                <description></description>
+            </plat>
+        </carte>
+        <menu>
+            <titre>A la fraicheur</titre>
+            <prix devise="FCFA">2000</prix>
+            <description></description>
+            <composition>
+                <plat type="plat" nom="">
+                    <prix devise="FCFA">2500</prix>
+                    <description></description>
+                </plat>
+            </composition>
+        </menu>
+    </restaurant>
+</Restaurant>

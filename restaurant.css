@@ -1,0 +1,50 @@
+body{
+    background-image: url("sans-titre.png");
+}
+Restaurant restaurant coordonnee nom{
+    font-family:"Comic Sans MS";
+    font-size:50pt;
+    line-height:40pt;
+    font-weight:bold;
+    text-decoration:underline;
+    display:block;
+    text-align:center;
+}
+Restaurant restaurant coordonnee adresse{
+    font-family:serif;
+    font-size:12pt;
+    line-height:80pt;
+    font-weight:bold;
+    text-decoration:underline;
+    display:block;
+}
+Restaurant restaurant coordonnee restaurateur{
+    font-family:serif;
+    font-size:30pt;
+    line-height:100pt;
+    font-weight:bold;
+    text-decoration:underline;
+    display:block;
+    text-align:center;
+}
+Restaurant restaurant coordonnee description, image{
+    font-family:serif;
+    font-size:12pt;
+    line-height:20pt;
+    display:block;
+    text-align:center;
+}
+Restaurant carte plat {
+    list-style:none;
+} 
+Restaurant carte plat prix, description {
+    padding:3px;  /* Marges intérieures */
+    margin:3px; /* Marges extérieures */
+    border:1px solid #d2691e; /* Bordures */
+    font-family:tahoma;
+    font-size:1.1em;
+    color:#d2691e;
+    width:1000px;
+    display:block;
+    text-align:center;
+    }
