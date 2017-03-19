@@ -3,13 +3,16 @@
 <?xml-stylesheet type="text/css" href="restaurant.css"?>
 <Restaurant  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="restaurant.xsd">
     <restaurant>
-        <coordonnee>
+        <information>
+            <coordonnee> 33 861 83 13 </coordonnee>
             <nom>La Parisienne</nom>
             <adresse>Route des Almadies</adresse>
             <restaurateur>François Peyre</restaurateur>
             <description>Prendre ces repas dans un cadre calme et agréable.</description>
             <image adresse="image"></image>
-        </coordonnee>
+       
+        </information>
+        
         <carte> 
             <plat type="Entree" nom="Salade royale">
                 <prix devise="FCFA">2000</prix>
