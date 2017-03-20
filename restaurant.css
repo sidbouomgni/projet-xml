@@ -27,12 +27,26 @@ Restaurant restaurant coordonnee restaurateur{
     display:block;
     text-align:center;
 }
-Restaurant restaurant coordonnee description, image{
+Restaurant restaurant coordonnee description, image[position="centre"]{
     font-family:serif;
     font-size:12pt;
     line-height:20pt;
     display:block;
     text-align:center;
+}
+Restaurant restaurant coordonnee description, image[position="droite"]{
+    font-family:serif;
+    font-size:12pt;
+    line-height:20pt;
+    display:block;
+    text-align:right;
+}
+Restaurant restaurant coordonnee description, image[position="gauche"]{
+    font-family:serif;
+    font-size:12pt;
+    line-height:20pt;
+    display:block;
+    text-align:left;
 }
 Restaurant carte plat {
     list-style:none;
