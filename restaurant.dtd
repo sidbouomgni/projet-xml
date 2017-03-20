@@ -9,6 +9,7 @@
 <!ELEMENT description (#PCDATA)>
 <!ELEMENT image EMPTY>
 <!ATTLIST image adresse ENTITY #IMPLIED>
+<!ATTLIST image position ( gauche|centre|droite ) #IMPLIED>
 <!ENTITY image SYSTEM "http://www.kwintessential.co.uk/images/buffet-315691_960_720.jpg" NDATA jpg>
 <!NOTATION jpg SYSTEM "image/jpeg">
 <!ELEMENT carte (plat+)>
