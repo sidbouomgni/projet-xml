@@ -8,8 +8,14 @@
             <nom>La Parisienne</nom>
             <adresse>Route des Almadies</adresse>
             <restaurateur>François Peyre</restaurateur>
-            <description>Prendre ces repas dans un cadre calme et agréable.</description>
-            <image adresse="image"></image>
+            <description>
+                Prendre ces repas dans un cadre calme et agréable.
+                
+                <image adresse="image" position="centre"/>
+            
+            
+            </description>
+            
        
         </information>
         
