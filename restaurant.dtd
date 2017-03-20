@@ -6,7 +6,7 @@
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT adresse (#PCDATA)>
 <!ELEMENT restaurateur (#PCDATA)>
-<!ELEMENT description (#PCDATA)>
+<!ELEMENT description (#PCDATA,image)>
 <!ELEMENT image EMPTY>
 <!ATTLIST image adresse ENTITY #IMPLIED>
 <!ATTLIST image position ( gauche|centre|droite ) #IMPLIED>
