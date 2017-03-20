@@ -4,12 +4,14 @@
 <Restaurant  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="restaurant.xsd">
     <restaurant>
         <information>
-            <coordonnee> 33 861 83 13 </coordonnee>
-            <nom>La Parisienne</nom>
-            <adresse>Route des Almadies</adresse>
-            <restaurateur>François Peyre</restaurateur>
+            
+            <nom>YUM YUM </nom>
+            <restaurateur>Mouhamed Aly SIDIBE</restaurateur>
+            <adresse>Adresse : Route des Almadies</adresse>
+            <coordonnee> Numero : 33 861 83 13 </coordonnee>
+            
             <description>
-                Prendre ces repas dans un cadre calme et agréable.
+                <descresto>Prendre ces repas dans un cadre calme et agréable.</descresto>
                 
                 <image adresse="image" position="centre"/>
             
@@ -20,61 +22,131 @@
         </information>
         
         <carte> 
+                 SERVICE A LA  CARTE : 
+
+
+
             <plat type="Entree" nom="Salade royale">
-                <prix devise="FCFA">2000</prix>
-                <description>Laitue, tomate, concombre, lamelle de jambon, vinaigrette</description>
+                <prix devise="FCFA">2000FCFA</prix>
+                <descriptionplat>Laitue, tomate, concombre, lamelle de jambon, vinaigrette</descriptionplat>
             </plat>
             <plat type="Entree" nom="Salade de Nice">
-                <prix devise="FCFA">2000</prix>
-                <description>Laitue, tomate, oignon, avocat, lamelle de viande, vinaigrette</description>
+                <prix devise="FCFA">2000FCFA</prix>
+                <descriptionplat>Laitue, tomate, oignon, avocat, lamelle de viande, vinaigrette</descriptionplat>
             </plat>
             <plat type="Entree" nom="Salade américaine">
-                <prix devise="FCFA">2500</prix>
-                <description>Laitue, tomate, oignon, concombre, lamelle de poulet, vinaigrette</description>
+                <prix devise="FCFA">2500FCFA</prix>
+                <descriptionplat>Laitue, tomate, oignon, concombre, lamelle de poulet, vinaigrette</descriptionplat>
             </plat>
             <plat type="Plat" nom="Poulet braisé">
-                <prix devise="FCFA">4000</prix>
-                <description>1/2 Poulet, crudités, frites</description>
+                <prix devise="FCFA">4000FCFA</prix>
+                <descriptionplat>1/2 Poulet, crudités, frites</descriptionplat>
             </plat>
             <plat type="Plat" nom="Dibi">
-                <prix devise="FCFA">5000</prix>
-                <description></description>
+                <prix devise="FCFA">5000FCFA</prix>
+                <descriptionplat>lorem ipsum blabla</descriptionplat>
             </plat>
             <plat type="Plat" nom="Côtes d'agneau au four">
-                <prix devise="FCFA">6000</prix>
-                <description></description>
+                <prix devise="FCFA">6000FCFA</prix>
+                <descriptionplat>lorem ipsum blabla</descriptionplat>
             </plat>
             <plat type="Dessert" nom="Glace">
-                <prix devise="FCFA">1500</prix>
-                <description>Parfum au choix</description>
+                <prix devise="FCFA">1500FCFA</prix>
+                <descriptionplat>Parfum au choix</descriptionplat>
             </plat>
             <plat type="Dessert" nom="Tarte à la fraise">
-                <prix devise="FCFA">3000</prix>
-                <description></description>
+                <prix devise="FCFA">3000FCFA</prix>
+                <descriptionplat>lorem ipsum blabla</descriptionplat>
             </plat>
             <plat type="Dessert" nom="Mousse au chocolat">
-                <prix devise="FCFA">3000</prix>
-                <description></description>
+                <prix devise="FCFA">3000FCFA</prix>
+                <descriptionplat>lorem ipsum blabla</descriptionplat>
             </plat>
             <plat type="Fromage" nom="Roquefort">
-                <prix devise="FCFA">3500</prix>
-                <description></description>
+                <prix devise="FCFA">3500FCFA</prix>
+                <descriptionplat>lorem ipsum blabla</descriptionplat>
             </plat>
             <plat type="Fromage" nom="Camembert Président">
-                <prix devise="FCFA">4000</prix>
-                <description></description>
+                <prix devise="FCFA">4000FCFA</prix>
+                <descriptionplat>lorem ipsum blabla</descriptionplat>
             </plat>
         </carte>
-        <menu>
-            <titre>A la fraicheur</titre>
-            <prix devise="FCFA">2000</prix>
-            <description></description>
-            <composition>
-                <plat type="plat" nom="">
-                    <prix devise="FCFA">2500</prix>
-                    <description></description>
-                </plat>
-            </composition>
-        </menu>
+
+
+
+        <menus> 
+
+            NOS MENUS :
+    
+            <menu id="1">
+                    <titre>A la fraicheur</titre>
+                    <prix devise="FCFA">2000FCFA</prix>
+                    <descriptionplat>laesent scelerisque tortor dolor, vitae feugiat lorem consequat ac. Morbi hendrerit, est quis faucibus bibendum, metus ipsum condimentum nisi, et vulputate nibh dolor et est. Quisque in bibendum diam. Nullam convallis laoreet aliquam. Praesent rutrum felis id nibh sagittis vulput</descriptionplat>
+                    <composition>
+                        COMPOSITION DU MENU :
+                            <plat type="plat" nom="">
+                                <prix devise="FCFA">2500FCFA</prix>
+                                <descriptionplat>lorem ipsum blabla</descriptionplat>
+                            </plat>
+                            <plat type="Dessert" nom="Glace">
+                <prix devise="FCFA">1500FCFA</prix>
+                <descriptionplat>Parfum au choix</descriptionplat>
+            </plat>
+                    </composition>
+
+            </menu>
+            <menu id="2">
+                    <titre>Buffet a volonte</titre>
+                    <prix devise="FCFA">15000FCFA</prix>
+                    <descriptionplat>aesent scelerisque tortor dolor, vitae feugiat lorem consequat ac. Morbi hendrerit, est quis faucibus bibendum, metus ipsum condimentum nisi, et vulputate nibh dolor et est. Quisque in bibendum diam. Nullam convallis laoreet aliquam. Praesent rutrum felis id nibh sagittis vulput</descriptionplat>
+                    <composition>
+                        COMPOSITION DU MENU :
+                            <plat type="plat" nom="">
+                                <prix devise="FCFA">2500FCFA</prix>
+                                <descriptionplat>lorem ipsum blabla</descriptionplat>
+                            </plat>
+                            <plat type="Dessert" nom="Glace">
+                <prix devise="FCFA">1500FCFA</prix>
+                <descriptionplat>Parfum au choix</descriptionplat>
+            </plat>
+                    </composition>
+
+            </menu>
+            <menu id="3">
+                    <titre>PIZZAAAA</titre>
+                    <prix devise="FCFA">2000FCFA</prix>
+                    <descriptionplat>aesent scelerisque tortor dolor, vitae feugiat lorem consequat ac. Morbi hendrerit, est quis faucibus bibendum, metus ipsum condimentum nisi, et vulputate nibh dolor et est. Quisque in bibendum diam. Nullam convallis laoreet aliquam. Praesent rutrum felis id nibh sagittis vulput</descriptionplat>
+                    <composition>
+                        COMPOSITION DU MENU :
+                            <plat type="plat" nom="">
+                                <prix devise="FCFA">2500FCFA</prix>
+                                <descriptionplat>lorem ipsum blabla</descriptionplat>
+                            </plat>
+                            <plat type="Dessert" nom="Glace">
+                <prix devise="FCFA">1500FCFA</prix>
+                <descriptionplat>Parfum au choix</descriptionplat>
+            </plat>
+                    </composition>
+
+            </menu>
+            <menu id="4">
+                    <titre>POULET</titre>
+                    <prix devise="FCFA">2000FCFA</prix>
+                    <descriptionplat>aesent scelerisque tortor dolor, vitae feugiat lorem consequat ac. Morbi hendrerit, est quis faucibus bibendum, metus ipsum condimentum nisi, et vulputate nibh dolor et est. Quisque in bibendum diam. Nullam convallis laoreet aliquam. Praesent rutrum felis id nibh sagittis vulput</descriptionplat>
+                    <composition>
+                        COMPOSITION DU MENU :
+                            <plat type="plat" nom="">
+                                <prix devise="FCFA">2500FCFA</prix>
+                                <descriptionplat>lorem ipsum blabla</descriptionplat>
+                            </plat>
+                            <plat type="Dessert" nom="Glace">
+                <prix devise="FCFA">1500FCFA</prix>
+                <descriptionplat>Parfum au choix</descriptionplat>
+            </plat>
+                    </composition>
+
+            </menu>
+            
+        </menus>
     </restaurant>
 </Restaurant>
